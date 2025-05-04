@@ -33,7 +33,7 @@ public class Juego {
 	@Enumerated(EnumType.STRING)
 	private Tipo tipo;
 	
-	private boolean completado;
+	private Boolean completado;
 
 	public Integer getId() {
 		return id;
@@ -99,13 +99,15 @@ public class Juego {
 		this.tipo = tipo;
 	}
 
-	public boolean isCompletado() {
+	public Boolean getCompletado() {
 		return completado;
 	}
 
-	public void setCompletado(boolean completado) {
+	public void setCompletado(Boolean completado) {
 		this.completado = completado;
 	}
+
+
 	
 	
 	

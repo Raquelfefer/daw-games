@@ -6,4 +6,7 @@ import com.daw.persistence.entities.Juego;
 
 public interface JuegoRepository extends ListCrudRepository<Juego, Integer>{
 
+	
+	
+
 }
